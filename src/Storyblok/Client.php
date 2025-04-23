@@ -1109,6 +1109,6 @@ class Client extends BaseClient
 
     private function isStopResolving($level)
     {
-        return $level > 4;
+        return $level > 6;
     }
 }
